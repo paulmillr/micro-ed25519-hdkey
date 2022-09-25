@@ -1,0 +1,70 @@
+{
+  "name": "ed25519-hdkey",
+  "version": "0.0.1",
+  "description": "Secure minimal implementation of SLIP-0010 hierarchical deterministic (HD) wallets for Ed25519",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "index.d.ts.map",
+    "index.ts"
+  ],
+  "type": "module",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/esm/index.js",
+      "default": "./lib/index.js"
+    }
+  },
+  "dependencies": {
+    "@noble/ed25519": "~1.7.1",
+    "@noble/hashes": "~1.1.1"
+  },
+  "devDependencies": {
+    "@scure/bip39": "1.1.0",
+    "@solana/web3.js": "1.63.0",
+    "micro-should": "0.2.0",
+    "prettier": "2.6.2",
+    "typescript": "4.7.3"
+  },
+  "author": "Paul Miller (https://paulmillr.com)",
+  "homepage": "https://paulmillr.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulmillr/ed25519-hdkey.git"
+  },
+  "contributors": [
+    {
+      "name": "Paul Miller",
+      "url": "https://paulmillr.com"
+    }
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "lint": "prettier --check 'index.ts' 'test/*.test.js'",
+    "format": "prettier --write 'index.ts' 'test/*.test.js'",
+    "test": "node test/index.test.js"
+  },
+  "keywords": [
+    "slip0010",
+    "SLIP 0010",
+    "ed25519",
+    "SLIP-0010",
+    "hierarchical",
+    "deterministic",
+    "hd key",
+    "bip0032",
+    "micro",
+    "code"
+  ],
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://paulmillr.com/funding/"
+    }
+  ]
+}
