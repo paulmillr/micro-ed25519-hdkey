@@ -1,21 +1,21 @@
-# ed25519-hdkey
+# @paulmillr/ed25519-hdkey
 
 Secure (based on audited code from [scure-bip32](https://github.com/paulmillr/scure-bip32)), minimal implementation of SLIP-0010 hierarchical deterministic (HD) wallets.
 
-Check out [scure-bip39](https://github.com/paulmillr/scure-bip39) if you need mnemonic phrases.
+Check out [scure-bip39](https://github.com/paulmillr/scure-bip39) if you also need mnemonic phrases.
 
 ## Usage
 
-> npm install ed25519-hdkey
+> npm install @paulmillr/ed25519-hdkey
 
 Or
 
-> yarn add ed25519-hdkey
+> yarn add @paulmillr/ed25519-hdkey
 
 The module exports a single class `HDKey`, which should be used like this:
 
 ```ts
-import { HDKey } from 'ed25519-hdkey';
+import { HDKey } from '@paulmillr/ed25519-hdkey';
 const hdkey1 = HDKey.fromMasterSeed(seed);
 
 // props

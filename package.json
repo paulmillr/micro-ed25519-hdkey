@@ -1,7 +1,7 @@
 {
-  "name": "ed25519-hdkey",
-  "version": "0.0.1",
-  "description": "Secure minimal implementation of SLIP-0010 hierarchical deterministic (HD) wallets for Ed25519",
+  "name": "@paulmillr/ed25519-hdkey",
+  "version": "0.1.0",
+  "description": "Auditable minimal implementation of SLIP-0010 hierarchical deterministic (HD) wallets for ed25519",
   "files": [
     "index.js",
     "index.d.ts",
@@ -12,13 +12,6 @@
   "main": "index.js",
   "module": "index.js",
   "types": "index.d.ts",
-  "exports": {
-    ".": {
-      "types": "./lib/index.d.ts",
-      "import": "./lib/esm/index.js",
-      "default": "./lib/index.js"
-    }
-  },
   "dependencies": {
     "@noble/ed25519": "~1.7.1",
     "@noble/hashes": "~1.1.1"
