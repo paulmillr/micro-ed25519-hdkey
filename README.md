@@ -1,6 +1,8 @@
 # @paulmillr/ed25519-hdkey
 
-Secure (based on audited code from [scure-bip32](https://github.com/paulmillr/scure-bip32)), minimal implementation of SLIP-0010 hierarchical deterministic (HD) wallets.
+Secure, minimal implementation of SLIP-0010 hierarchical deterministic (HD) wallets.
+
+Uses audited [@noble/ed25519](https://github.com/paulmillr/noble-ed25519) under the hood. Based on audited code from [scure-bip32](https://github.com/paulmillr/scure-bip32).
 
 Check out [scure-bip39](https://github.com/paulmillr/scure-bip39) if you also need mnemonic phrases.
 
