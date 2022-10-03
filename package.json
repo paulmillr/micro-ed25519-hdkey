@@ -36,7 +36,7 @@
   "homepage": "https://paulmillr.com/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/paulmillr/ed25519-hdkey.git"
+    "url": "https://github.com/paulmillr/micro-ed25519-hdkey.git"
   },
   "contributors": [
     {
