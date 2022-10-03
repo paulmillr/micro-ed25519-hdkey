@@ -19,7 +19,7 @@
     "@noble/hashes": "~1.1.1"
   },
   "devDependencies": {
-    "@scure/bip39": "1.1.0",
+    "@scure/bip39": "~1.1.0",
     "@solana/web3.js": "1.63.0",
     "micro-should": "0.2.0",
     "prettier": "2.6.2",
