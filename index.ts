@@ -1,4 +1,4 @@
-/*! ed25519-hdkey - MIT License (c) 2022 Paul Miller (paulmillr.com) */
+/*! micro-ed25519-hdkey - MIT License (c) 2022 Paul Miller (paulmillr.com) */
 import * as ed25519 from '@noble/ed25519';
 import { hmac } from '@noble/hashes/hmac';
 import { ripemd160 } from '@noble/hashes/ripemd160';
@@ -6,6 +6,8 @@ import { sha256 } from '@noble/hashes/sha256';
 import { sha512 } from '@noble/hashes/sha512';
 import { concatBytes, createView, hexToBytes, utf8ToBytes, bytesToHex } from '@noble/hashes/utils';
 import { bytes as assertBytes } from '@noble/hashes/_assert';
+
+// Enable sync API in noble-ed25519
 ed25519.utils.sha512Sync = (...m) => sha512(ed25519.utils.concatBytes(...m));
 
 export const MASTER_SECRET = utf8ToBytes('ed25519 seed');
