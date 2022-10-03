@@ -1,4 +1,4 @@
-import { HDKey } from '../index.js';
+import { HDKey } from '../esm/index.js';
 import { deepStrictEqual, throws } from 'assert';
 import { should } from 'micro-should';
 import { bytesToHex } from '@noble/hashes/utils';

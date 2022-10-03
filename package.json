@@ -7,7 +7,8 @@
     "index.d.ts",
     "index.d.ts.map",
     "index.ts",
-    "esm/index.js"
+    "esm/index.js",
+    "esm/package.json"
   ],
   "type": "module",
   "main": "index.js",

@@ -17,7 +17,7 @@ import * as bip39 from '@scure/bip39';
 import { wordlist } from '@scure/bip39/wordlists/english.js';
 import { Keypair as SolanaKeypair, PublicKey as SolanaPublicKey } from '@solana/web3.js';
 import { base58 as bs58 } from '@scure/base';
-import { HDKey } from '../index.js';
+import { HDKey } from '../esm/index.js';
 
 export class Keypair {
   constructor(secretKey) {
