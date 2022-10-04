@@ -1,6 +1,6 @@
 {
   "name": "micro-ed25519-hdkey",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Auditable minimal implementation of SLIP-0010 hierarchical deterministic (HD) wallets for ed25519",
   "files": [
     "index.js",
