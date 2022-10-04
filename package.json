@@ -10,7 +10,6 @@
     "esm/index.js",
     "esm/package.json"
   ],
-  "type": "module",
   "main": "index.js",
   "module": "esm/index.js",
   "types": "index.d.ts",
