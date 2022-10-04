@@ -6,6 +6,8 @@ Uses audited [@noble/ed25519](https://github.com/paulmillr/noble-ed25519) under 
 
 Check out [scure-bip39](https://github.com/paulmillr/scure-bip39) if you also need mnemonic phrases.
 
+Sponsored by the Kin Foundation for [Kinetic](https://github.com/kin-labs/kinetic).
+
 ## Usage
 
 > npm install micro-ed25519-hdkey
