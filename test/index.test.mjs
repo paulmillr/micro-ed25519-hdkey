@@ -2,8 +2,8 @@ import { HDKey } from '../esm/index.js';
 import { deepStrictEqual, throws } from 'assert';
 import { should } from 'micro-should';
 import { bytesToHex } from '@noble/hashes/utils';
-import { fixtures } from './slip-0010.fixture.js';
-import * as a from './bip39.test.js';
+import { fixtures } from './slip-0010.fixture.mjs';
+import * as a from './bip39.test.mjs';
 
 // https://github.com/satoshilabs/slips/blob/master/slip-0010.md
 

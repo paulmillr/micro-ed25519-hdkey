@@ -9,7 +9,7 @@ import {
   TEST_PUBLIC_KEY,
   TEST_SECRET_BYTEARRAY,
   TEST_SECRET_KEY,
-} from './bip39.fixture.js';
+} from './bip39.fixture.mjs';
 import { should } from 'micro-should';
 import { deepStrictEqual } from 'node:assert';
 

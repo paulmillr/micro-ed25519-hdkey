@@ -48,7 +48,7 @@
     "build": "tsc && tsc -p tsconfig.esm.json",
     "lint": "prettier --check 'index.ts' 'test/*.test.js'",
     "format": "prettier --write 'index.ts' 'test/*.test.js'",
-    "test": "node test/index.test.js"
+    "test": "node test/index.test.mjs"
   },
   "keywords": [
     "slip0010",
