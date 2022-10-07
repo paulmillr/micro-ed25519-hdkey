@@ -46,8 +46,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc && tsc -p tsconfig.esm.json",
-    "lint": "prettier --check 'index.ts' 'test/*.test.js'",
-    "format": "prettier --write 'index.ts' 'test/*.test.js'",
+    "lint": "prettier --check 'index.ts' 'test/*.test.mjs'",
+    "format": "prettier --write 'index.ts' 'test/*.test.mjs'",
     "test": "node test/index.test.mjs"
   },
   "keywords": [
