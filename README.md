@@ -1,3 +1,5 @@
+**The package is deprecated: switch to [ed25519-keygen](https://github.com/paulmillr/ed25519-keygen) with the same API.**
+
 # micro-ed25519-hdkey
 
 Secure, minimal implementation of SLIP-0010 hierarchical deterministic (HD) wallets.
